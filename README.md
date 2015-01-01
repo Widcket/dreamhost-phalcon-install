@@ -1,5 +1,5 @@
 #Installing Phalcon on a shared Dreamhost server
-Here's a way to install the Phalcon PHP framework on a shared DH account by using a precompiled, DH-tailored Phalcon build. I will assume you know how to access the server via ssh and how to use basic terminal.
+Here's a way to install the [Phalcon PHP framework](http://phalconphp.com/) on a shared DH account by using a precompiled, DH-tailored Phalcon build. I will assume you know how to access the server via ssh and how to use basic terminal.
 
 ##Requirements
 1. A shared Dreamhost account with shell access
