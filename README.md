@@ -5,7 +5,7 @@ Here's a way to install the Phalcon PHP framework on a shared DH account by usin
 1. A shared Dreamhost account with shell access
 2. A domain running PHP 5.6.x w/ FastCGI. The Phalcon builds I'm providing won't work with older versions of PHP, so in that case you'll need to upgrade  or [compile phalcon.so](http://serverfault.com/questions/607104/how-can-i-install-phalcon-or-any-custom-php-module-extension-on-my-shared-cpan/607105) yourself.
 
-##Steps: 
+##Steps
 1. Login to your account via ssh
 2. Make sure you're in the home directory
 	`$ cd ~/`
