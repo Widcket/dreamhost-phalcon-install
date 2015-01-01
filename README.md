@@ -8,28 +8,40 @@ Here's a way to install the [Phalcon PHP framework](http://phalconphp.com/) on a
 ##Steps
 1. Login to your account via ssh
 2. Make sure you're in the home directory
+
     ```
     $ cd ~/
     ```
+    
 3. Create a folder to put Phalcon into
+
     ```
     $ mkdir extensions
     ```
+    
 4. Grab Phalcon. Replace `__PHALCON_VERSION__` with the one you want, e.g. `2.0.0b3`
+
     ```
     wget -O extensions/phalcon.so https://github.com/Widcket/dreamhost-phalcon-install/blob/master/__PHALCON_VERSION__/phalcon.so?raw=true
     ```
+    
 5. Create a folder to put the phprc file into 
+
     ```
     $ mkdir -p .php/5.6
     ```
+    
 6. Create the phprc file
+
     ```
     $ nano .php/5.6/phprc
     ```
+    
 7. Drop this line in. Replace `__USERNAME__` with your actual username
+
     ```
     extension = /home/__USERNAME__/extensions/phalcon.so
     ```
+    
 8. Save the file and exit (Ctrl+O then Ctrl+X)
 9. You're done! Check it with `phpinfo()`
